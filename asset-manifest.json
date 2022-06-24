@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Locamove/static/css/main.af7d35dc.css",
+    "main.js": "/Locamove/static/js/main.11b0cc90.js",
+    "index.html": "/Locamove/index.html",
+    "main.af7d35dc.css.map": "/Locamove/static/css/main.af7d35dc.css.map",
+    "main.11b0cc90.js.map": "/Locamove/static/js/main.11b0cc90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af7d35dc.css",
+    "static/js/main.11b0cc90.js"
+  ]
+}
