@@ -1,0 +1,160 @@
+.container-home{
+    background-color: black;
+    margin: 10px auto;
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.home-header{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.home-header h1{
+    background-image: linear-gradient(to left, #007991, #78ffd6 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 20px auto;
+}
+
+.home-header h2{
+    margin: 12px;
+}
+
+.home-header h4{
+    font-size: 1.3rem;
+}
+
+.home-input p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px auto;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.home-input button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.home-input input{
+    padding: 0.5rem;
+    border: 2px solid rgb(187, 186, 186);
+    outline: none;
+    border-radius: 10px;
+    color: black;
+}
+
+.home-input input:hover{
+    outline: 2px solid #007991;
+}
+
+
+
+
+
+.logo-imagens{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 5px auto;
+}
+
+.logo{
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+	animation: rotate-center 1s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+.logo img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 2px  3px 5px 2px rgba(190, 188, 188, 0.377);
+    margin: 35px auto;
+    justify-content: space-around;
+}
+
+.empresas{
+    padding: 15px;
+}
+
+.empresas h1, .empresas h2{
+    margin: 10px auto;
+}
+
+.icon-car{
+    font-size: 2.0rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    animation: 2s ease rotate infinite;
+}
+
+.icon-air{
+    font-size: 2.0rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    animation: 3s ease slide-in infinite;
+}
+
+@keyframes slide-in{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform:  translateX(200px);
+    }
+}
+
+
+.icon-public{
+    font-size: 2.0rem;
+    justify-content: center;
+    align-items: center;
+    animation: 2s ease rotate infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotateY(360deg);
+    }
+    to{
+        transform:  rotateY(0);
+    }
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body, button{
+    background: #007991; 
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  
+    background: linear-gradient(to right, #78ffd6, #007991); 
+}
+
+.login-container{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20% auto 0 auto;
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 20px 15px 4px 2px rgba(0, 0, 0, 0.486);
+    animation: slide 1.5s ease-in-out;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(120%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.login-header{
+    text-align: center;
+}
+
+.login-header h2{
+    background-image: linear-gradient(to left, #007991, #78ffd6 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.login-header p{
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.login-input{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-input p {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input input{
+    margin: 5px auto;
+    border-radius: 6px;
+    border: 2px solid rgba(128, 126, 126, 0.5);
+    padding: 0.3rem 1.5rem;
+}
+
+.login-input button{
+    padding: 0.9rem 3.8rem;
+    border: none;
+    border-radius: 6px;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: -50px;
+    cursor: pointer;
+}
