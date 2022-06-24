@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Locamove/static/css/main.af7d35dc.css",
-    "main.js": "/Locamove/static/js/main.11b0cc90.js",
+    "main.js": "/Locamove/static/js/main.6c58d6cc.js",
     "index.html": "/Locamove/index.html",
     "main.af7d35dc.css.map": "/Locamove/static/css/main.af7d35dc.css.map",
-    "main.11b0cc90.js.map": "/Locamove/static/js/main.11b0cc90.js.map"
+    "main.6c58d6cc.js.map": "/Locamove/static/js/main.6c58d6cc.js.map"
   },
   "entrypoints": [
     "static/css/main.af7d35dc.css",
-    "static/js/main.11b0cc90.js"
+    "static/js/main.6c58d6cc.js"
   ]
 }
