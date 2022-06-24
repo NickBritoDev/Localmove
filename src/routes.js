@@ -6,7 +6,7 @@ function RoutesApp(){
     return(
         <BrowserRouter>
         <Routes>
-            <Route path='/' element={<Login/>}/>
+            <Route path='/Localmove/' element={<Login/>}/>
             <Route path='/home' element={<Home/>}/>
         </Routes>
         </BrowserRouter>
