@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Locamove/static/css/main.af7d35dc.css",
-    "main.js": "/Locamove/static/js/main.6c58d6cc.js",
-    "index.html": "/Locamove/index.html",
-    "main.af7d35dc.css.map": "/Locamove/static/css/main.af7d35dc.css.map",
-    "main.6c58d6cc.js.map": "/Locamove/static/js/main.6c58d6cc.js.map"
+    "main.css": "/Localmove/static/css/main.af7d35dc.css",
+    "main.js": "/Localmove/static/js/main.6c58d6cc.js",
+    "index.html": "/Localmove/index.html",
+    "main.af7d35dc.css.map": "/Localmove/static/css/main.af7d35dc.css.map",
+    "main.6c58d6cc.js.map": "/Localmove/static/js/main.6c58d6cc.js.map"
   },
   "entrypoints": [
     "static/css/main.af7d35dc.css",
