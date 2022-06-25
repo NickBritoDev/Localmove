@@ -2,7 +2,7 @@
   "name": "locomove",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NickBritoDev.github.io/Locamove/",
+  "homepage": "https://NickBritoDev.github.io/Localmove/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
